@@ -1,0 +1,15 @@
+{
+  "name": "setu",
+  "version": "0.0.1",
+  "author": "Prateek Bhatnagar <prateek89born@gmail.com>, Akshay Kumar <akshaykumar201189@gmail.com>",
+  "private": false,
+  "scripts": {
+     "build": "grunt build",
+     "test": "./node_modules/.bin/mocha-phantomjs -R tap test/tests.html > test/result.txt; echo '\n\nTest results:===================================\n'; cat test/result.txt;",
+     "all": "grunt"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:akshaykumar201189/setu.git"
+  }
+}
